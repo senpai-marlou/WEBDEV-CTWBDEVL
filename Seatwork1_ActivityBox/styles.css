@@ -1,0 +1,58 @@
+/* Set up the body with centered alignment */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Create a modern container with gradient, rounded corners, and box shadow */
+.content-container {
+    border-radius: 24px; /* Rounded corners */
+    background: linear-gradient(135deg, #72c2f7, #000d6e); /* Diagonal gradient with smoother transition */
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.8); /* Deeper shadow for dramatic effect */
+    padding: 30px; /* More padding for comfortable spacing */
+    width: 60%; /* 60% of viewport width */
+    max-width: 500px; /* Maximum width for larger screens */
+    height: 50%; /* Set height to 50% of viewport */
+    border: 14px inset #ffffff; /* Add a 2px solid black border */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transitions for interactions */
+}
+
+/* Add a hover effect with a slight scale-up and more transparency */
+.content-container:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    opacity: 0.95; /* Slight transparency on hover */
+}
+
+/* Style the header with modern typography */
+h1 {
+    font-size: 3em; /* Larger font size for impact */
+    color: #ffffff; /* White text for contrast */
+    text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.7); /* Deeper text shadow for 3D effect */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+/* Style the paragraphs */
+p {
+    font-size: 1.2em; /* Slightly larger font size for readability */
+    color: #e0e0e0; /* Light gray text for softer contrast */
+    margin: 10px 0; /* Space between paragraphs */
+    text-align: center; /* Center text alignment */
+}
+
+/* Centered content with proper alignment */
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center content */
+    align-items: center; /* Horizontally center content */
+    height: 100%; /* Ensure the flex container takes full height */
+    text-align: center; /* Center text alignment */
+}
